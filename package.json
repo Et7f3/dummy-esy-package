@@ -1,0 +1,15 @@
+{
+  "name": "dummy-esy-package",
+  "esy": {
+    "build": "echo DUMMY_EXPORTED_ENV:'#{$DUMMY_EXPORTED_ENV}', DUMMY_ENV:'#{$DUMMY_ENV}'",
+    "buildEnv": {
+      "DUMMY_ENV": "A"
+    },
+    "exportedEnv": {
+      "DUMMY_EXPORTED_ENV": {
+        "val": "B",
+        "scope": "global"
+      }
+    }
+  }
+}

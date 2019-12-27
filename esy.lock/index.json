@@ -1,0 +1,19 @@
+{
+  "checksum": "0cc961f41dbf4ff5ab5654751a4ba36e",
+  "root": "dummy-esy-package@link-dev:./package.json",
+  "node": {
+    "dummy-esy-package@link-dev:./package.json": {
+      "id": "dummy-esy-package@link-dev:./package.json",
+      "name": "dummy-esy-package",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}
